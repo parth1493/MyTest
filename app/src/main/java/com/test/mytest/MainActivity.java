@@ -21,21 +21,15 @@ public class MainActivity extends AppCompatActivity{
         Button button = findViewById(R.id.button);
         Button button1 = findViewById(R.id.button2);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "Color changed to gray");
-                constraintLayout.setBackgroundColor(Color.GRAY);
-            }
-        });
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "Color changed to green");
-                constraintLayout.setBackgroundColor(Color.GREEN);
-            }
-        });
-
     }
 
+    public void ChangetoGreen(View view)
+    {
+        constraintLayout.setBackgroundColor(Color.GREEN);
+    }
+
+    public void ChangetoGray(View view)
+    {
+        constraintLayout.setBackgroundColor(Color.GRAY);
+    }
 }
