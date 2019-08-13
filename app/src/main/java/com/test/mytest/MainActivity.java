@@ -18,9 +18,6 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         constraintLayout = findViewById(R.id.cview);
-        Button button = findViewById(R.id.button);
-        Button button1 = findViewById(R.id.button2);
-
     }
 
     public void ChangetoGreen(View view)
